@@ -1,3 +1,5 @@
+#v1.0.2
+
 import time
 
 print "Enter .SHSS absolute file path: (Drag and drop it here)"
@@ -28,7 +30,7 @@ def parseSHSS(shssCode):
 		['bgc', 	'background-color'],
 		['bc', 		'background-color'],
 		['bgi', 	'background-image'],
-		['bi', 		'backgroud-image'],
+		['bi', 		'background-image'],
 		['bp', 		'background-position'],
 		['bgp', 	'background-position'],
 		['bpx', 	'background-position-x'],
@@ -37,7 +39,7 @@ def parseSHSS(shssCode):
 		['by', 		'background-position-y'],
 		['br', 		'background-repeat'],
 		['bgr', 	'background-repeat'],
-		['bh', 		'behaviour'],
+		['bh', 		'behavior'],
 		['bo', 		'border'],
 		['bb', 		'border-bottom'],
 		['bbc', 	'border-bottom-color'],
